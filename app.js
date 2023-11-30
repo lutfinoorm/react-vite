@@ -1,8 +1,8 @@
 const colors = ["green", "red", "rgba(133,122,200)", "#F15025"];
 const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 
-const btnSimple = document.getElementById('btnSimple');
-const btnHex = document.getElementById('btnHex');
+const btnSimple = document.getElementById('btn-simple');
+const btnHex = document.getElementById('btn-hex');
 const color = document.querySelector('.color');
 
 
