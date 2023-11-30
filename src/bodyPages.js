@@ -7,7 +7,7 @@ navBar.style.margin = '0';
 
 const paragraphEl = document.createElement('a');
 paragraphEl.innerText = "Homepage";
-paragraphEl.href = '../../index.html'
+paragraphEl.href = '../../../index.html'
 paragraphEl.style.color = 'whitesmoke';
 paragraphEl.style.textDecoration = 'none';
 
