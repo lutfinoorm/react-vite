@@ -2,13 +2,15 @@ document.body.style.margin = '0'
 
 const navBar = document.getElementById('nav-bar');
 navBar.style.backgroundColor = 'grey';
-navBar.style.margin = '0';
+navBar.style.padding = '1rem';
 
 
-const paragraphEl = document.createElement('a');
-paragraphEl.innerText = "Homepage";
-paragraphEl.href = '../../../index.html'
-paragraphEl.style.color = 'whitesmoke';
-paragraphEl.style.textDecoration = 'none';
+const homeElement = document.createElement('a');
+homeElement.innerText = "Home";
+homeElement.href = '../../../index.html'
+homeElement.style.color = 'whitesmoke';
+homeElement.style.textDecoration = 'none';
+homeElement.style.fontSize = '1.3rem';
 
-navBar.append(paragraphEl);
+
+navBar.append(homeElement);
