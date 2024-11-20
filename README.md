@@ -6,3 +6,11 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+- Create Vite App using
+npm create vite@latest
+
+- [Follow along the docs](https://vite.dev/guide/static-deploy.html#github-pages)
+
+- Go To Settings and set the workflow permissions to
+  Read and Write Permissions
